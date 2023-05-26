@@ -1,0 +1,29 @@
+.box{
+    background-color: lightgray;
+    width: 50px;
+    height: 15px;
+    padding: 80px;
+    border: 8px solid black;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+.box2{
+    background-color: antiquewhite;
+    width: 120px;
+    height: auto;
+    border: 6px dashed blueviolet;
+    padding: 100px;
+    margin: 2px 0px 15px 230px;
+    
+}
+.box3{
+    background-color: antiquewhite;
+    width: 120px;
+    height: auto;
+    border: 6px dotted rgb(241, 10, 10);
+    padding: 100px;
+    margin: 20px 20px 500px 560px;
+    
+}

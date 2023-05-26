@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<style>
+    body{
+        height: 1500px;
+    }
+    body>div{
+        height: 400px;
+    }
+    div{
+        border: solid 2px;
+        margin: 30px;
+    }
+    body>div:nth-child(1)>div{
+        border-color: green;
+        left: 30px;
+    }
+    body>div:nth-child(2)>div{
+        border-color: blue;
+        left: 150px;
+    }
+    
+    body>div>div:nth-child(1){
+       position: static; 
+
+    }
+    body>div>div:nth-child(2){
+       position: relative; 
+       top: 80px;
+
+    }
+    body>div>div:nth-child(3){
+       position: absolute; 
+       top: 90px;
+    }
+    body>div>div:nth-child(41){
+       position: inherit; 
+    }
+    body>div>div:nth-child(5){
+       position: fixed;
+       top:120px; 
+    }
+    body>div>div:nth-child(6){
+       position: sticky;
+       top: 200px;
+    }
+
+</style>
+<body>
+    <div>PADRE
+        <div>HIJO static</div>
+        <div>HIJO relative</div>
+        <div>HIJO absolute</div>
+        <div>HIJO inherit</div>
+        <div>HIJO fixed</div>
+        <div>HIJO sticky</div>
+    </div>
+    <div>PADRE
+        <div>HIJO static</div>
+        <div>HIJO relative</div>
+        <div>HIJO absolute</div>
+        <div>HIJO inherit</div>
+        <div>HIJO fixed</div>
+        <div>HIJO sticky</div>
+    </div>
+
+
+
+
+</body>
+</html>

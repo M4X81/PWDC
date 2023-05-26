@@ -1,0 +1,31 @@
+.ejemplo{
+    padding: 10px;
+    border: 4px solid black;
+    margin: 50px 300px 0px 300px;
+}
+.box {
+    background-color: rgb(177, 150, 150);
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 5px ridge black;
+    margin: 20px;
+  }
+
+  .box1 {
+    background-color: lavender;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 5px double black;
+    margin: 20px;
+  }
+
+  .box2 {
+    background-color: blanchedalmond;
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 5px dotted black;
+    margin: 20px;
+  }

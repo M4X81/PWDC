@@ -1,0 +1,38 @@
+.contenedor {
+  display: flex;
+  width: 1280px;
+  height: 720px;
+  border: 2px solid darkkhaki;
+}
+
+.caja-1 {
+  background-color: coral;
+  margin: 50px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-2 {
+  background-color: cornflowerblue;
+  margin-top: 100px;
+  margin-left: 300px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja-3 {
+  background-color: darkseagreen;
+  margin-top: 100px;
+  margin-left: 500px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

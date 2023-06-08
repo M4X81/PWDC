@@ -2,7 +2,10 @@ var images =[
     "img/pexels-elias-tigiser-1083342.jpg",
     "img/pexels-elias-tigiser-1090745.jpg",
     "img/pexels-enakshi-mukhopadhyaya-441663.jpg",
-    "img/pexels-pixabay-209807.jpg"
+    "img/pexels-pixabay-209807.jpg",
+    "img/03-paisajes-en-movimiento.gif",
+    "img/04-paisajes-en-movimiento.gif",
+    "img/Captura.PNG"
 ];
 // Variable para llevar el registro de la imagen actual
 var currentImageIndex = 0;
